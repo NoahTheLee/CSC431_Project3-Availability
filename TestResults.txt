@@ -1,0 +1,492 @@
+Test Case 1:
+Add a server and 5 clients.
+
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+1 servers, serving 0 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:2
+How many clients to add?
+5
+Adding 5 clients...
+
+1 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:4
+
+1 servers, serving 5 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:0
+Exiting...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test Case 2:
+Try to balance 5 new clients between 0 servers, then add a few servers and actually balance them.
+
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:2
+How many clients to add?
+5
+Adding 5 clients...
+
+0 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:4
+No servers available to balance clients.
+
+0 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+1 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+2 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+3 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:4
+
+3 servers, serving 5 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:0
+Exiting...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test Case 3:
+Add specified clients to server and nuke a random server.
+
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+1 servers, serving 0 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+2 servers, serving 0 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+3 servers, serving 0 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:6
+Server D34dxb33F_0 has 0 clients. Server status: Warning, with ping: 298ms.
+Server D34dxb33F_1 has 0 clients. Server status: Healthy, with ping: 83ms.
+Server D34dxb33F_2 has 0 clients. Server status: Danger, with ping: 495ms.
+
+3 servers, serving 0 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:2
+How many clients to add?
+5
+Adding 5 clients...
+
+3 servers, serving 0 clients, with 5 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:7
+Currently available servers:
+0: D34dxb33F_0
+1: D34dxb33F_1
+2: D34dxb33F_2
+Enter the server number to add clients to:
+1
+All unassigned clients have been added to server D34dxb33F_1
+
+3 servers, serving 5 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:6
+Server D34dxb33F_0 has 0 clients. Server status: Danger, with ping: 535ms.
+Server D34dxb33F_1 has 5 clients. Server status: Danger, with ping: 628ms.
+Server D34dxb33F_2 has 0 clients. Server status: Warning, with ping: 152ms.
+
+3 servers, serving 5 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:2
+How many clients to add?
+3
+Adding 3 clients...
+
+3 servers, serving 5 clients, with 3 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:7
+Currently available servers:
+0: D34dxb33F_0
+1: D34dxb33F_1
+2: D34dxb33F_2
+Enter the server number to add clients to:
+2
+All unassigned clients have been added to server D34dxb33F_2
+
+3 servers, serving 8 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:6
+Server D34dxb33F_0 has 0 clients. Server status: Healthy, with ping: 41ms.
+Server D34dxb33F_1 has 5 clients. Server status: Warning, with ping: 195ms.
+Server D34dxb33F_2 has 3 clients. Server status: Warning, with ping: 277ms.
+
+3 servers, serving 8 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:3
+Nuking D34dxb33F_0...
+Pushing 0 clients back to pool...
+Server killed
+
+2 servers, serving 8 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:6
+Server D34dxb33F_1 has 5 clients. Server status: Warning, with ping: 112ms.
+Server D34dxb33F_2 has 3 clients. Server status: Warning, with ping: 257ms.
+
+2 servers, serving 8 clients, with 0 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:3
+Nuking D34dxb33F_2...
+Pushing 3 clients back to pool...
+Server killed
+
+1 servers, serving 5 clients, with 3 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:6
+Server D34dxb33F_1 has 5 clients. Server status: Warning, with ping: 223ms.
+
+1 servers, serving 5 clients, with 3 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+2 servers, serving 5 clients, with 3 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:1
+
+3 servers, serving 5 clients, with 3 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:6
+Server D34dxb33F_1 has 5 clients. Server status: Warning, with ping: 225ms.
+Server D34dxb33F_3 has 0 clients. Server status: Danger, with ping: 618ms.
+Server D34dxb33F_4 has 0 clients. Server status: Danger, with ping: 588ms.
+
+3 servers, serving 5 clients, with 3 clients waiting in queue.
+------------------------------------------------------------
+ Available Commands:
+ 1  - Add Server
+ 2  - Add Client(s)
+ 3  - Nuke Random Server
+ 4  - Balance Pending Clients
+ 5  - Show Traffic
+ 6  - View Server Status
+ 7  - Add Specified Clients to Server
+ 0  - Exit
+------------------------------------------------------------
+Enter your choice:0
+Exiting...
